@@ -1,0 +1,410 @@
+body{
+
+}
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.bar1{
+    background-color:#0d2d62;
+    min-height:10px ;
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+}
+.bar1 span{
+    padding: 10px;
+    color: azure;
+    font-size: 12px;
+    font-family:sans-serif;
+}
+.links{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    
+}
+.links li{
+   
+    padding: 13px;
+ 
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 1.2;
+    font-family: 'Source Sans Pro', sans-serif;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    color: #2d2e2e;
+   
+}
+li a{
+    color: rgb(0, 0, 0);
+}
+li a:hover{
+    color: #bd2727;
+    text-decoration: none;
+}
+.select{
+    color: #bd2727;
+}
+
+
+/* Dropdown Button */
+.dropbtn {
+    
+    color: rgb(0, 0, 0);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+  
+    min-width: 250px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+ 
+.logo{
+    text-align: center;
+}
+.carousel-item img{
+    height: 600px;
+    
+}
+
+h2{
+    font-size: 50px;
+    line-height: 1.1;
+    margin-top: 29px;
+    margin-bottom: 29px;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+}
+
+.few{
+    background-color: rgb(255, 255, 255);
+    margin: 50px 150px;
+    display: flex;
+    
+}
+.few .text{
+   
+}
+
+.button {
+    margin-top: 240px;
+    background-color:  #b80924; /* Green */
+    border: none;
+    border: 1.5px solid black;
+    color: rgb(255, 255, 255);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 80px;
+  }
+  .button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+  h3{
+      position: absolute;
+      top: 250px;
+      color: white;
+      font-size: 50px;
+      left: 130px;
+  }
+  .caption p{
+    position: absolute;
+    top: 350px;
+    color: white;
+    font-size: 20px;
+    left: 130px;
+  }
+
+  .notice{
+   
+      
+  }
+  .notice .text{
+      color: rgb(0, 0, 0);
+      font-size: 20px;
+      margin-left: 100px;
+  }
+  marquee{
+      border: 1px solid black;
+      box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+      padding: 20px;
+      background-color: aliceblue;
+  }
+  .all{
+      display: flex;
+      height: 100vh;
+      width: 100%;
+      background-color: rgb(170, 171, 223);
+  }
+  .events{
+      
+      background-color: #8a8fdb;
+      height: 100%;
+  }
+  .events h1{
+      font-size: 60px;
+      margin-bottom: 80px;
+  }
+
+  .video {
+    position: absolute;
+    left: 100px;
+    top: 2350px;
+  }
+  .div4 .text{
+    margin: 30px;
+      margin-top: 150px;
+      font-size: 14px;
+     
+  }
+
+
+
+
+
+
+  @import url(https://fonts.googleapis.com/css?family=Roboto:400,100,900);
+
+html,
+body {
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  height: 100%;
+  width: 100%; 
+  background: #FFF;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+ 
+.wrapper {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+.container-fostrap {
+  display: table-cell;
+  padding: 1em;
+  text-align: center;
+  vertical-align: middle;
+}
+.fostrap-logo {
+  width: 100px;
+  margin-bottom:15px
+}
+h1.heading {
+  color: #fff;
+  font-size: 1.15em;
+  font-weight: 900;
+  margin: 0 0 0.5em;
+  color: #505050;
+}
+@media (min-width: 450px) {
+  h1.heading {
+    font-size: 3.55em;
+  }
+}
+@media (min-width: 760px) {
+  h1.heading {
+    font-size: 3.05em;
+  }
+}
+@media (min-width: 900px) {
+  h1.heading {
+    font-size: 3.25em;
+    margin: 0 0 0.3em;
+  }
+} 
+.card {
+  display: block; 
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12); 
+    transition: box-shadow .25s; 
+}
+.card:hover {
+  box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.img-card {
+  width: 100%;
+  height:200px;
+  border-top-left-radius:2px;
+  border-top-right-radius:2px;
+  display:block;
+    overflow: hidden;
+}
+.img-card img{
+  width: 100%;
+  height: 200px;
+  object-fit:cover; 
+  transition: all .25s ease;
+} 
+.card-content {
+  padding:15px;
+  text-align:left;
+}
+.card-title {
+  margin-top:0px;
+  font-weight: 700;
+  font-size: 1.65em;
+}
+.card-title a {
+  color: #000;
+  text-decoration: none !important;
+}
+.card-read-more {
+  border-top: 1px solid #D4D4D4;
+}
+.card-read-more a {
+  text-decoration: none !important;
+  padding:10px;
+  font-weight:600;
+  text-transform: uppercase
+}
+  
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    .carousel-item img{
+        height: 500px;
+        
+    }
+    .links{
+        visibility: hidden;
+    }
+    .bar1 span{
+        font-size: 10px;
+    }
+    .logo img{
+        height: 150px;
+
+    
+    }
+    .few{
+        background-color: rgb(255, 255, 255);
+        margin: 10px 20px;
+        display: block;
+        
+    }
+    .few img{
+        height: 200px;
+        
+       
+       
+        width: 80%;
+
+    }
+    .few .img{
+        width: 100%;
+        
+        text-align: center;
+    }
+    h3{
+        position: absolute;
+        top: 200px;
+        color: white;
+        font-size: 24px;
+        left: 40px;
+    }
+    .caption p{
+      position: absolute;
+      top: 300px;
+      color: white;
+      font-size: 10px;
+      left: 40px;
+    }
+    .notice img{
+        height: 190px;
+    }
+    .notice marquee{
+        width: 90%;
+        height: 400px;
+    }
+    .notice .text{
+        margin-left: 40px;
+    }
+    .all{
+        display: block;
+        height: 100vh;
+        width: 100%;
+        
+    }
+    .div4{
+        display: block;
+
+    }
+    
+  .video {
+    position: relative;
+    top: 0px;
+    left: 0px;
+
+  }
+  iframe{
+      width: 100%;
+      
+  }
+  .events{
+      height: 1350px;
+  }
+  .events h1{
+      color: #FFF;
+  }
+ 
+  
+  }
+  
+
+.foot{
+    background-color: #000;
+    height: 200px;
+}
+
+  
