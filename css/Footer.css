@@ -19,24 +19,29 @@ footer{
     display: grid;
   
     grid-template-columns: 300px 300px 1fr ;
-    
+    height: 80%;
     
     padding:40px 200px;
    
 }
 .div3{
     text-align: right;
+    background-color: aquamarine;
+    height: 100%;
 }
 .div1{
     padding-top:59px ;
+    background-color: rgb(148, 182, 171);
+    height: 100%;
 }
 .div2{
     padding-top:59px ;
+    height: 100%;
 }
 .div4{
     grid-column-start: 1;
     grid-column-end: 4;
-  
+    background-color: rgb(60, 65, 63);
     color: white;
     text-align: center;
 }
